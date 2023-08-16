@@ -2,7 +2,7 @@ const ABI = require("./artifacts/ReignABI");
 
 // a44bbee405dd4b29afb8874b2c7975ff
 
-const contractAddress = "0x508e863F8F3be3fA1a863CB4aAC0E45f0A45B217";
+const contractAddress = "0x33299E27b7f7caB765d048fA9A1E8Dfeb499C550";
 const infuraKey = "87bc7c0247e74875a0fc496ed197f24c";
 const network = "homestead";
 // const network = "goerli";

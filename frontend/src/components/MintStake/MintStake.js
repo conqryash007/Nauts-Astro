@@ -38,7 +38,7 @@ const MintStake = ({ nautContract, account }) => {
 
   const isPilot = async (_id) => {
     const data = await axios.post(
-      `https://reignkit.reignlabs.io/api/nauts/ispilot`,
+      `${process.env.REACT_APP_production_url}/api/nauts/ispilot`,
       { naughtIds: _id }
     );
     const result = data.data;

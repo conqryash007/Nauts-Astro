@@ -50,7 +50,7 @@ const Claim = ({ freeContract, account, nautContract }) => {
         // moose
         try {
           let r1 = await axios.get(
-            `https://reignkit.reignlabs.io/api/nauts/claimstatus/moose/${account}`
+            `${process.env.REACT_APP_production_url}/api/nauts/claimstatus/moose/${account}`
           );
           r1 = r1.data;
 
@@ -66,7 +66,7 @@ const Claim = ({ freeContract, account, nautContract }) => {
         // alpha
         try {
           let r2 = await axios.get(
-            `https://reignkit.reignlabs.io/api/nauts/claimstatus/alpha/${account}`
+            `${process.env.REACT_APP_production_url}/api/nauts/claimstatus/alpha/${account}`
           );
           r2 = r2.data;
 
@@ -118,18 +118,18 @@ const Claim = ({ freeContract, account, nautContract }) => {
 
       if (available === 1) {
         await axios.post(
-          `https://reignkit.reignlabs.io/api/nauts/claim/moose/${account}`
+          `${process.env.REACT_APP_production_url}/api/nauts/claim/moose/${account}`
         );
       } else if (available === 2) {
         await axios.post(
-          `https://reignkit.reignlabs.io/api/nauts/claim/alpha/${account}`
+          `${process.env.REACT_APP_production_url}/api/nauts/claim/alpha/${account}`
         );
       } else if (available === 3) {
         await axios.post(
-          `https://reignkit.reignlabs.io/api/nauts/claim/moose/${account}`
+          `${process.env.REACT_APP_production_url}/api/nauts/claim/moose/${account}`
         );
         await axios.post(
-          `https://reignkit.reignlabs.io/api/nauts/claim/alpha/${account}`
+          `${process.env.REACT_APP_production_url}/api/nauts/claim/alpha/${account}`
         );
       }
 

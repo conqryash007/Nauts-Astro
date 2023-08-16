@@ -57,13 +57,13 @@ const Navbar = () => {
           >
             <Box className="popup">
               <a href="launchpass">Launch Pass</a>
-              <a href="https://reignlabs.io/launch-pad/">Launch Pad</a>
+              <a href="launchpass">Launch Pad</a>
             </Box>
           </Popper>
 
           <a href="discountmint">Invest</a>
           <a href="claim">Claim</a>
-          <a href="mintstake">Mint</a>
+          <a href="/">Mint</a>
           <p style={{ cursor: "pointer", display: "inline" }}>
             {addr !== "" ? (
               <a>{`${addr.slice(0, 5)}...${addr.slice(-3)}`}</a>
@@ -109,6 +109,7 @@ const Navbar = () => {
             <a href="https://reignlabs.io/">Home</a>
             <a href="mintstake">Apply Now</a>
             <a href="launchpass">Launch Pad</a>
+            <a href="/">Mint</a>
             <a href="https://reignlabs.io/priority-support/">
               Priority Support
             </a>

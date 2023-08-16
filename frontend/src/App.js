@@ -67,7 +67,7 @@ function App() {
       />
       <Route
         exact
-        path="/mintstake"
+        path="/"
         component={() => (
           <MintStake nautContract={nautContract} account={addr} />
         )}

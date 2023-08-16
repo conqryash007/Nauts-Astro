@@ -3,9 +3,12 @@ const ethers = require("ethers");
 
 const isValidNautId = async (_id) => {
   try {
-    const provider = new ethers.providers.InfuraProvider(
-      final.network,
-      final.infuraKey
+    // const provider = new ethers.providers.InfuraProvider(
+    //   final.network,
+    //   final.infuraKey
+    // );
+    const provider = new ethers.providers.JsonRpcProvider(
+      "https://polygon-mumbai.g.alchemy.com/v2/demo"
     );
 
     const reignContract = new ethers.Contract(
