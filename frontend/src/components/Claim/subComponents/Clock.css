@@ -1,0 +1,62 @@
+.clock {
+  display: flex;
+}
+.clock div {
+  background-color: #86ff00;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.clock div h3 {
+  font-size: 20px;
+}
+.clock div h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.clock2 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+.clock2 div {
+  background-color: rgb(30, 40, 53);
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+.clock2 div h3 {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+.clock2 div h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .clock {
+    flex-direction: column;
+  }
+  .clock div {
+    width: 120px;
+    height: 120px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+}

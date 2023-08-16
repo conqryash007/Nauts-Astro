@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+.main22 {
+  background: linear-gradient(0deg, #09141dc1, #09141d9d),
+    url("./../../assets/bgclaim.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-position: top;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 30px 260px 0 260px;
+  font-family: "Space Grotesk", sans-serif;
+  overflow: hidden;
+}
+.top-txt-c2 {
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 50px;
+  width: 57vw;
+}
+.claim-txt2 h3 {
+  width: 30vw;
+  color: white;
+  font-weight: bolder;
+}
+.project2 {
+  padding: 300px 0 10px 0;
+  margin-bottom: 20px;
+}
+.proj-img2 {
+  position: absolute;
+  display: flex;
+  margin-bottom: 50px;
+  width: 94%;
+  transform: translate(-196px, 10px);
+  justify-content: space-around;
+}
+
+.proj-img2 img {
+  border-radius: 100%;
+  margin: 0px 20px 0px 20px;
+}
+.proj-img2 div h2 {
+  color: #798da3;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.proj-txt2 {
+  margin-top: 230px;
+  color: #798da3;
+  font-weight: bold;
+  text-align: center;
+}
+.timer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.claim-div2 {
+  display: flex;
+  flex-direction: column;
+  color: #798da3;
+  width: 20vw;
+  align-items: center;
+}
+.claim-div2 h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+.claim-div2 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.discount2 {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.discount2 div img {
+  transform: translateX(-50px);
+}
+.discount2 div:nth-child(1) img {
+  width: 42vw;
+}
+@media screen and (max-width: 480px) {
+  .discount2 {
+    display: block;
+  }
+  .discount2 div:nth-child(1) img {
+    width: 90vw;
+  }
+  .claim-div2 {
+    width: 90vw;
+    margin-bottom: 30px;
+  }
+  .timer2 {
+    flex-direction: column;
+  }
+  .main22 {
+    padding: 20px;
+  }
+  .top-txt-c2 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 90vw;
+    text-align: center;
+  }
+  .claim-txt2 h3 {
+    width: 90vw;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .proj-img2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 0px);
+    align-items: center;
+    width: 100%;
+  }
+  .project2 {
+    padding: 50px 0 10px 0;
+    margin-bottom: 10px;
+  }
+  .proj-img2 div {
+    margin-top: 20px;
+  }
+  .proj-txt2 {
+    margin-top: 50px;
+  }
+}

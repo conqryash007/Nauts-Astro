@@ -1,0 +1,37 @@
+.main1 {
+  background: linear-gradient(0deg, #18183063, #18183063),
+    url("./../../assets/bg1.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: top;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /* background-size: cover; */
+  padding: 30px 260px 0 260px;
+  font-family: Arimo;
+}
+
+.an {
+  width: 48vw;
+  margin: auto;
+  padding-top: 100px;
+}
+.top-txt {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+.main-container {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .main1 {
+    height: 620px;
+    padding: 20px;
+  }
+  .an {
+    width: 90vw;
+  }
+}

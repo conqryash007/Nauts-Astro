@@ -1,0 +1,103 @@
+.pass-cont {
+  display: flex;
+  margin-top: 30px;
+}
+.pass {
+  color: black;
+  background-color: rgb(247, 247, 247);
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  font-family: Arimo;
+  overflow: hidden;
+  margin: 10px;
+}
+.pass-head {
+  background: greenyellow;
+  padding: 30px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  overflow: hidden;
+}
+.pass-head h1 {
+  font-size: 30px;
+}
+
+.pass-head h3 {
+  font-weight: 1;
+}
+.passSingle {
+  display: flex;
+}
+.passSingle svg {
+  width: 20px;
+}
+
+.pass-fee {
+  text-align: center;
+  padding: 10px;
+}
+.pass-fee h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(58, 56, 56);
+}
+.pass-char {
+  text-align: center;
+  padding: 30px;
+}
+.passSingle {
+  text-align: center;
+  justify-content: center;
+  color: rgb(75, 76, 78);
+  padding: 5px;
+  border-bottom: 2px solid rgb(201, 197, 197);
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.pass-char div svg {
+  margin-right: 20px;
+}
+
+.btn-pass {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #798da3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 150px;
+  margin: auto;
+}
+.btn-pass:hover {
+  background: greenyellow;
+  text-decoration: none;
+}
+
+.pass-btm {
+  color: #798da3;
+  padding: 40px;
+  text-align: center;
+}
+.patti {
+  background: black;
+  transform: rotate(39deg);
+  color: white;
+  width: 233px;
+  margin-left: 121px;
+}
+
+@media screen and (max-width: 480px) {
+  .pass-cont {
+    flex-direction: column;
+  }
+  .pass {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
